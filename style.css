@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-banner{
+    display: flex;
+    background-color: rgb(214, 230, 224);
+    background-image: url(img/banner-left-img-cyan.png);
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    /* font-weight: 700; */
+    /* padding-top: 50px; */
+    align-items: center;
+   
+}
+
+#banner-img{
+    width: 500px;
+    display: flex;
+}
+
+
+
+#banner-left{
+    width: 50%;
+    background-image: url(img/my-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: right top;
+    /* padding-right: 23px; */
+ 
+}
+
+h1{
+    margin-bottom: 15px;
+    color: red;
+}
+
+h4{
+    margin-bottom: 11px;
+}
+p{
+    text-align: justify;
+}
+
+button{
+    color: white;
+    /* background-color: red, greenyellow; */
+    background-image: linear-gradient(red, green);
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+/*  */
+
+#middle-banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+#second-banner-img{
+    width: 500px;
+
+}
+
+#banner-right{
+    width: 60%;
+}
+
+/*  */
+#exp{
+    background-color:  rgb(214, 230, 224);
+    height: 450px;
+    background-image: url(img/exp-bg-cyan.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: left;
+ 
+}
+#experiences{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.each-exp{
+    width: 35%;
+    padding: 30px;
+    box-shadow: 0px 0px 40px gray;
+   
+}
+
+#exp-tittle{
+    color: black;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
+#exp-left{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, green);
+    border-image-slice: 1;
+}
+
+
+#exp-right{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(238, 255, 1), rgb(17, 0, 255));
+    border-image-slice: 1;
+}
+
+
+footer{
+    text-align: center;
+   padding-top: 90px;
+   background-image: url(img/footer-right-img-cyan.png);
+   background-repeat: no-repeat;
+   background-position: right;
+ 
+}
+
+
